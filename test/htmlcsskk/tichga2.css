@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html{
+    font-family: helvetica ;
+    box-sizing: border-box;
+  }
+  .color-white{
+    color:#fff !important;
+  }
+  #app {
+    
+  }
+  
+  #header{
+    background-color: black;
+    height: 46px;
+    width: 100%;
+    position:fixed ;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1 ;
+  }
+  
+  #nav{
+    display: inline-block;
+  }
+  
+  #nav li{
+    display: inline;
+   position: relative;
+  }
+  
+  #nav li a{
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 4px;
+    display: inline-block;
+  }
+  
+  #nav >li:hover> a{
+    color: #000;
+    background-color: #ccc;
+    display: inline-block;
+  }
+  
+  #nav li:hover .auv{
+    display:block;
+  }
+  
+  #nav>li>a{
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  #nav .auv li:hover {
+   color #000;
+   background-color: #ccc;
+   display: block;
+   cursor: pointer;
+  }
+  
+  #nav .auv {
+    background-color: #fff;
+    position: absolute;
+    top: 90%;
+    left: 0%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) ;
+    display: none;
+  }
+  
+  #nav .auv a{
+    color: black;
+    padding:auto;
+   line-height: 30px;
+  }
+  
+  #box{
+    position: relative;
+    padding-top:100%;
+    background-image:url('https://scontent.fhan5-11.fna.fbcdn.net/v/t39.30808-6/313198923_805311030771202_7468185890611062791_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=71My4KgKNzAAX8G9_oi&_nc_ht=scontent.fhan5-11.fna&oh=00_AfAbYlmty3YTanUYjOon1fAmzzgyNn6DXgbDZ05oDjT_pw&oe=637BAB67');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 46px;
+  }
+  
+  #box #vc{
+    color: white;
+    bottom: 0;
+    text-align: center;
+  }
+  
+  #box #vc .text-content{
+    color: white;
+    font-size: 16px;
+  }
+  
+  #box #vc .line-content{
+    color:white;
+    font-size: 12px;
+  }
+  
+  #content {
+  
+  }
+  
+  #content #cg {
+    width: 600px;
+    height: 700px;
+    padding: 55px 0;
+    margin-right: auto;
+    margin-left: auto;
+    display max-zoom: auto;
+   
+  }
+  
+  #content .content-x{
+      text-align: center;
+      font-size: 30px;
+      font-weight: 400;
+      letter-spacing:4px ;
+    }
+    
+  #content .content-tess{
+      text-align: center;
+      font-size: 15px;
+      margin-top: 20px;
+      font-style: italic;
+      opacity: 0.7;
+    }
+    
+  #content .about-content{
+      margin-top:20px;
+      text-align: justify;
+      font-size: 15px;
+      line-height: 1.6;
+      
+    }
+    
+  #content .mem-avt{
+     
+      margin-top: 46px;
+    }
+    
+  #content .mem-list{
+      float: left;
+      width:50%;
+      font-style:  ;
+      text-align: center;
+    }
+    
+  #content .mem-name{
+  
+       font-size: 15px;
+       text-align: center;
+       
+     }
+     
+  #content .mem-img{
+       width: 100px;
+       margin-top: 10px;
+     }
+     
+  #jav{
+  
+       
+       
+     }
+  #jav #elec-a{
+    background-color: black;
+      margin-top:30px;
+       padding: 55px 10px;
+       text-align: center;
+     }
+     
+  #jav .jav-b{
+    background-color: #fff;
+    margin-top:40px;
+  }
+  
+  .jav-b li{
+    list-style: none;
+    margin-left:16px;
+    padding: 4px 4px;
+    border-bottom:1px solid #ddd ;
+    font-size: 16px;
+  }
+  
+  .jav-b .sold-out{
+    float: right;
+    margin-left: 26px;
+    background-color: red;
+    padding:3px 14px;
+    color:white;
+  }
+  .jav-b .fess{
+    float:right ;
+    background-color: black;
+    color: white;
+    width: 24px;
+    height: 24px;
+    border-radius: 60%;
+    text-align: center;
+  }
+    
+  #footer{
+       background-color: black;
+    
+  }
